@@ -263,14 +263,14 @@
   
 }
 
-/* @media (max-width: 425px) {
+@media (max-width: 425px) {
  
-  section{
+  /*section{
     overflow: hidden;
     width: 100%;
   } */    
 
- /* .ul_div{
+  .ul_div{
     display: none;
   }
 
@@ -285,50 +285,26 @@
 
   .hero_div{
     background-image: url("../IMAGE/hero-mobile.png");
+    height: 150dvh;
+    background-size: cover;
   }
 
   .rent{
     width: 95%;
-    height: 26dvh;
-    top: 10px;
-    padding: 20px 20px 20px 5%;
+    height: 40dvh;
+    top: 25px;
+    padding: 7%;
   }
 
   .rent h1{
     font-size: 32px;
-
+    line-height: 30px;
   }
 
   .rent p{
-    font-size: 14px;
-    line-height: 20px;
-  }
-
- /*  .hero_div {
-    background: url("../IMAGE/hero-mobile.png");
-    height: 150dvh;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-
-  .rent {
-    width: 97%;
-    height: 37dvh;
-    top: 20px;
-    padding: 38px;
-  }
-
-  .rent h1 {
-    font-size: 35px;
-    font-weight: 700;
-    margin-bottom: 15px;
-    margin-top: -15px;
-  }
-
-  .rent p {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 0;
   }
 
   .future_div {
@@ -344,6 +320,62 @@
   .future_img_mobile{
     display: flex;
     width: 100%;
+    gap: 0;
   } 
 
-} */
+  .future_text_mobile {
+    background: #F2F0F2;
+    border-radius: 0 0 60px 60px;
+    padding: 40px 10%;
+    gap: 32px;
+    opacity: 0px;
+    text-align: center;
+  }
+
+  .future_text_mobile h1{
+    line-height: 50px;
+    font-size: 27px;
+  }
+
+  .future_text_mobile p {
+    line-height: 25px;
+    font-size: 18px;
+  }
+
+  .features_text h1 {
+    font-size: 29px;
+    line-height: 40px;
+  }
+
+  .features_text p {
+    margin-top: 10px;
+  }
+
+  .features_icons {
+    flex-direction: column;
+    gap: 20px;
+    /* padding: 5% 5%; */
+  }
+
+  .features {
+    width: 100%;
+    height: 180px;
+    padding: 25px 30px;
+  }
+
+  .features i {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+
+  .features h4 {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+
+  .features p {
+    font-size: 18px;
+    line-height: 20px;
+  } 
+} 
